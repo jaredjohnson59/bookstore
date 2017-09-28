@@ -1,0 +1,11 @@
+<form (submit)="createGenre()">
+    <h2>Create Genre</h2>
+
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="name" class="form-control" id="name" [(ngModel)]="genre.name" name="name">
+    </div>
+
+    <input type="submit" class="btn btn-primary" value="Submit" />
+
+  </form>
